@@ -13,10 +13,13 @@
 
 using namespace std;
 
-//Populates a deck with a set of 52 unique cards. That is, 4 suits of 9 numbered
-//cards and 4 face cards
+//Input : An array of Card objects, defined in Card.h
+//
+//Process : Populates a deck with a set of 52 unique cards. 
+//That is, 4 suits of 9 numbered cards and 4 face cards
 void populateDeck(Card deck[]);
 
+//Input : A deck of cards, 
 //the hand value is so that the setValue can make aces become ones
 //if the hand's value + 11 > 21
 // 
