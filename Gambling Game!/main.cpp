@@ -4,11 +4,10 @@
 #include"Card.h"
 #include"Hand.h"
 
-//this crap is for the sleep command to work!
+//these includes are just for the sleep command to work!
 #include<stdlib.h>
 #include <stdio.h>
 #include <time.h>
-//#include <unistd.h>
 #include <dos.h>
 #include <windows.h>
 
